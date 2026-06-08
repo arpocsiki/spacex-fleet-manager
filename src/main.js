@@ -102,7 +102,7 @@ var init = function () {
 
             <tr>
                 td>LEO teherbírás</td>
-                <td>${selectedRockets[0].mass.toLocaleString()} kg</td>
+                <td>${selectedRockets[0].leoPayload.toLocaleString()} kg</td>
                 <td>${selectedRockets[1].leoPayload.toLocaleString()} kg</td>
             </tr>
 
